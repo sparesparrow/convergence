@@ -2,6 +2,23 @@
 
 Convergence will utilize GPT language models to automate the development process as much as possible. For example, if editing a source code file, the keyboard shortcut would trigger a sequence of actions (generally OpenAI GPT API prompts) on the file's content, providing different kinds of results like Explain Code, Code Readability Review, Code Syntax Correction, Found Bugs, Suggested Improvements, etc. For all those results, the user will then have options like Accept Suggestions, Copy to Clipboard, Save to File, Use as GPT Input,
 
+## Blackboard system
+
+**A blackboard-system application consists of three major components:**
+
+1. The `software specialist modules`, which are called knowledge sources (KSs). Like the human experts at a blackboard, each knowledge source provides specific expertise needed by the application.
+2. The blackboard, a `shared repository` of problems, partial solutions, suggestions, and contributed information. The blackboard can be thought of as a dynamic "library" of contributions to the current problem that have been recently "published" by other knowledge sources.
+3. The `control shell`, which controls the flow of problem-solving activity in the system. Just as the eager human specialists need a moderator to prevent them from trampling each other in a mad dash to grab the chalk, KSs need a mechanism to organize their use in the most effective and coherent fashion. In a blackboard system, this is provided by the control shell.
+
+*Knowledge base for the user-ai interaction design:*
+
+Blackboard system - "https://en.wikipedia.org/wiki/Blackboard_system"
+Autonomous decentralized system - "https://en.wikipedia.org/wiki/Autonomous_decentralized_system"
+Artificial intelligence systems integration - "https://en.wikipedia.org/wiki/Artificial_intelligence_systems_integration"
+Message passing - "https://en.wikipedia.org/wiki/Message_passing"
+Pandemonium architecture - "https://en.wikipedia.org/wiki/Pandemonium_architecture"
+Tuple space - "https://en.wikipedia.org/wiki/Tuple_space"
+
 ### Technologies, APIs, and Libraries
 
 - C++17 or later for backend code.
